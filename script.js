@@ -14,7 +14,6 @@ $(document).ready(function() {
 
 function newGrid(sideLength) {
     $(".container").empty();
-    $(".container").css("width", "50%");
     $(".container").prepend("<table></table>");
     for (var i = 0; i < sideLength; i++) {
             $("table").append("<tr></tr>");
