@@ -25,6 +25,6 @@ function newGrid(sideLength) {
     }; 
         
     $(".square").mouseenter(function() {
-        $(this).css("background-color", "blue");
+        $(this).css("background-color", "#234567");
     });
 };
