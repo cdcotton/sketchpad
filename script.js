@@ -4,7 +4,7 @@ $(document).ready(function() {
     
     newGrid(16);
     
-    $("#new_grid").click(function() {
+    $("button").click(function() {
         var length = prompt("How many squares per side?");
         if (length != null) {
             newGrid(length);
